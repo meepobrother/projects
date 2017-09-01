@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "es2016",
+      "dom"
+    ],
+    "outDir": "../out-tsc/app",
+    "target": "es5",
+    "module": "commonjs",
+    "baseUrl": "",
+    "rootDir": "./",
+    "strict": true,
+    "paths": {
+      "@ngrx/store": [
+        "./modules/store"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "**/*/node_modules"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "atom": {
+    "rewriteTsconfig": false
+  }
+}
